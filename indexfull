@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Iceland">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked By Savcı</title>
+    <link rel="icon" type="image/gif" href="https://i.hizliresim.com/6k0qlur.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: 'Iceland', sans-serif;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 10px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-title {
+            font-size: 6.4em;
+            color: #FFFFFF;
+            margin: 16px 0;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+        }
+
+        .subtitle {
+            font-size: 2.4em;
+            color: #FFFFFF;
+            margin: 8px 0;
+        }
+
+        .description {
+            font-size: 1.2em;
+            color: #FFFFFF;
+            margin: 16px 0;
+        }
+
+        .weapon-text {
+            font-size: 1.2em;
+            color: #ff0000;
+            margin: 8px 0;
+        }
+
+        .main-image {
+            margin: 16px 0;
+        }
+
+        .main-image img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .decorative-line {
+            margin: 16px 0;
+        }
+
+        .spotify-container {
+            margin-top: 24px;
+        }
+
+        .spotify-container iframe {
+            border-radius: 12px;
+        }
+        .instagram-link {
+            margin-top: 24px;
+        }
+
+        .instagram-link a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .instagram-link a:hover {
+            text-shadow: 0 0 10px white;
+            box-shadow: 0 0 10px white;
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Particles.js container -->
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <div class="main-image">
+            <img src="https://i.hizliresim.com/6k0qlur.jpg" alt="Savcı Logo">
+        </div>
+        
+        <div class="decorative-line">
+            <img src="http://zonehmirrors.org/defaced/2021/01/27/wothoq.co/i.hizliresim.com/jj1jmD.gif" width="300" height="23">
+        </div>
+
+        <div class="subtitle">Hacked By</div>
+        <div class="main-title highlight">Savcı x Glock x Kaisn</div>
+
+        <div class="decorative-line">
+            <img src="http://zonehmirrors.org/defaced/2021/01/27/wothoq.co/i.hizliresim.com/jj1jmD.gif" width="300" height="23">
+        </div>
+
+        <div class="description">
+            Sorry Admin, We Found A Vulnerability In Your Website.
+        </div>
+
+        <div class="weapon-text">
+            ▄︻デ══━━
+        </div>
+
+        <!-- Spotify Music -->
+        <div class="spotify-container">
+            <iframe 
+                src="https://open.spotify.com/embed/track/5opIsjy31edFCGqDtmrhhK?utm_source=generator" 
+                width="280" 
+                height="80" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </div>
+        <div class="instagram-link">
+            <a href="https://www.instagram.com/savciwashere/" target="_blank">
+                Instagram
+            </a>
+        </div>
+    </div>
+
+    <!-- Particles.js Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 350,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: '#ffffff'
+                },
+                shape: {
+                    type: 'circle'
+                },
+                opacity: {
+                    value: 0.6,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 4,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 2,
+                        size_min: 0.5,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 120,
+                    color: '#ffffff',
+                    opacity: 0.3,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 3,
+                    direction: 'none',
+                    random: true,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: 'window',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'repulse'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                },
+                modes: {
+                    repulse: {
+                        distance: 100,
+                        duration: 0.4
+                    },
+                    push: {
+                        particles_nb: 5
+                    }
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
+</html>
