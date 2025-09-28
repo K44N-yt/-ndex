@@ -109,6 +109,10 @@
             box-shadow: 0 0 10px white;
             background: rgba(255, 255, 255, 0.2);
         }
+
+        .instagram-usernames {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -117,7 +121,7 @@
 
     <div class="content">
         <div class="main-image">
-            <img src="https://i.hizliresim.com/6k0qlur.jpg" alt="Savcı Logo">
+            <img src="https://i.hizliresim.com/qgdd2st.png" alt="Savcı Logo">
         </div>
         
         <div class="decorative-line">
@@ -126,7 +130,7 @@
 
         <div class="subtitle">Hacked By</div>
         <div class="main-title highlight">Savcı</div>
-        <div style="font-size: 2.0em; color: white; margin: 8px 0;">Credits: Glock, Kaisn, Nesas</div>
+        <div style="font-size: 2.0em; color: white; margin: 8px 0;">Credits: Glock, Nesas, Wexy, Furkan Zirve</div>
 
         <div class="decorative-line">
             <img src="http://zonehmirrors.org/defaced/2021/01/27/wothoq.co/i.hizliresim.com/jj1jmD.gif" width="300" height="23">
@@ -136,26 +140,19 @@
             Sorry Admin, We Found A Vulnerability In Your Website.
         </div>
 
-        <div class="weapon-text">
-            ▄︻デ══━━
-        </div>
 
-        <!-- Spotify Music -->
-        <div class="spotify-container">
-            <iframe 
-                src="https://open.spotify.com/embed/track/5opIsjy31edFCGqDtmrhhK?utm_source=generator" 
-                width="280" 
-                height="80" 
-                frameBorder="0" 
-                allowfullscreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                loading="lazy">
-            </iframe>
-        </div>
         <div class="instagram-link">
             <a href="https://www.instagram.com/savciwashere/" target="_blank">
                 Instagram
             </a>
+        </div>
+
+        <div class="instagram-usernames">
+            savciwashere<br>
+            n4sasw<br>
+            glock_0day<br>
+            1.wexy<br>
+            furkan.zrv
         </div>
     </div>
 
